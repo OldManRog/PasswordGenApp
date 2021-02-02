@@ -12,13 +12,14 @@ body {
 }
 
 .pw-container {
-    background-color: rgb(209, 18, 18);
+    background-color:  rgb(165, 14, 14);
     width: 300px;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .pw-header {
-    background-color: rgb(146, 9, 9);
+    background-color: rgb(165, 14, 14);
     padding: 10px;
 }
 
@@ -42,7 +43,7 @@ body {
     font-family: inherit;
     border-radius: 10px;
     position: absolute;
-    bottom: -30%;
+    bottom: -20%;
     left: 50%;
     transform: translateX(-50%);
     padding: .2rem .5rem;
@@ -57,12 +58,31 @@ body {
 }
 
 .pw-body {
- padding: 1rem ;
+ padding: 0 1rem 1rem ;
 }
 
 .form-control {
     display: flex;
     justify-content: space-between;
     margin: .5rem;
+}
+
+
+.generate-button {
+    width: 100%;
+    background-color: rgb(236, 188, 188);
+    border: none;
+    cursor: pointer;
+    color: rgb(12, 3, 3);
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: .5rem;
+    height: 50px;
+    font-family: inherit;
+}
+.generate-button:hover {
+    background-color: rgb(235, 212, 212) 
 }
 
