@@ -12,15 +12,15 @@
     <body>
         <div class="pw-container"> 
             <div class="div pw-header">
-                <div class="pw">
+                <div class="pw" id="pw">
                     s98fs8fy4hr390w-22
-                <button class="pw-button">Copy to Clipboard</button>
+                <button class="pw-button" id="copy">Copy to Clipboard</button>
                 </div>
             </div>
             <div class="pw-body">
                 <div class="form-control">
-                    <label for="len">Contain Uppercase Letters</label>
-                    <input id="len" type="number" min="4" max="40">
+                    <label for="len">Password Lenght</label>
+                    <input id="len" value="20" type="number" min="4" max="40">
                 </div>
                 <div class="form-control">
                     <label for="upper">Contain Uppercase Letters</label>
@@ -38,9 +38,7 @@
                     <label for="symbol">Contain Symbols</label>
                     <input id="symbol" type="checkbox">
                 </div>
-             
-                <button class="generate-button" id="generate"> Generate Password </button>
-                     
+                <button class="generate-button" id="generate"> Generate Password </button>   
             </div>
         </div>
         <script src="main.js" async defer></script>

@@ -62,6 +62,7 @@ body {
 }
 
 .form-control {
+    color: #eeeeee;
     display: flex;
     justify-content: space-between;
     margin: .5rem;
